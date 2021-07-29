@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<style>
+    *{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color:#F8F8FF#F8F8FF;
+        
+
+    }
+    body{
+      margin: 0;
+    }
+#name{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#email{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#label_mess{
+    font-family: Apple Chancery, cursive	;
+    font-size: 30px;
+}
+#label_email{
+    font-family: Apple Chancery, cursive	;
+    font-size: 30px;
+}
+#label_nom{
+    font-family: Apple Chancery, cursive	;
+    font-size: 30px;
+}
+
+
+.button {
+  background-color: #228B22; 
+  border: none;
+  color:beige;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.title_page{
+font-family: Bradley Hand, cursive	;
+margin-left: 120px;
+margin-right: 500px;
+padding-right: 500px;
+margin-bottom: 70px;
+}
+form{
+    margin-left: 60px;
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin-top: 10px;
+    
+}
+.links ul{
+    margin-top: 50px;
+}
+
+.links ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    transition: all 0.5s ease;
+}
+.links ul a:hover{
+    color: cornsilk;
+}
+.links ul li{
+    margin-bottom: 20px;
+}
+.logo{
+    display: block;
+    flex-direction: column;
+    
+}
+.logo img{
+    width: 140px;
+    height: 130px;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+    
+}
+.logo p{
+    font-family: 'Source Code Pro', monospace;
+}
+.links-reso ul li{
+    list-style: none;
+
+}
+.links-reso ul li img{
+    width: 30px;
+    height: 30px;
+}
+.links-reso ul{
+    margin-top: 30PX;
+}
+.links ul{
+   text-align: left;
+}
+.photo{
+    margin-bottom: 100px;
+  }
+.photo img{
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+
+</style>
+<body>
+
+<h1 class="title_page">Contact us</h1>
+
+  <form>
+    <label id="label_nom">Nom</label><br>
+    <input type="text" id="name" name="firstname" placeholder="Nom"><br>
+
+    <label id="label_email">Email</label><br>
+    <input type="text" id="email" name="lastname" placeholder="Email"><br>
+
+    <label id="label_mess"> Message</label><br>
+    <form>
+        <textarea></textarea> 
+    </form>
+    <button class="button">Send Message</button>
+    <div class="footer">
+      <div class="logo">
+       <img src="img/logo 3.png">
+       <p>Wydad Athletic Club </p>
+      </div>
+      <div class="links">
+             <ul>
+               <a href="homepage.html"><li>Home</li></a>
+               <a href="Players.html"><li>Players</li></a>
+               <a href="titre.html"><li>Titres</li></a>
+               <a href="Contactus.html"><li>Contact</li></a>
+             </ul>
+      </div>
+      <div class="links-reso">
+          <ul>
+               <li><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></li>
+               <li><img src="https://img.icons8.com/fluent/64/000000/instagram-new.png"/></li>
+               <li><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></li>
+               <li><img src="https://img.icons8.com/plasticine/48/000000/gmail.png"/></li>
+               <li><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></li>
+           </ul>
+      </div>
+     
+</div>
+    
+</body>
+</html>
